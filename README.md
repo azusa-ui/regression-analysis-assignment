@@ -104,75 +104,74 @@ All datasets were generated using **Generative AI (ChatGPT 5.2)** to emulate rea
 - **R** (≥ 4.3)
 - **Logistic Regression Analysis**
 
-###---------------------------------------------------------
 ### Data Manipulation & Wrangling
-library(tidyverse)        # dplyr, tidyr, ggplot2, purrr
-library(modelr)           # Predictions and model helpers
-###-----------------------------------------------------------
+- library(tidyverse)        # dplyr, tidyr, ggplot2, purrr
+- library(modelr)           # Predictions and model helpers
+
 ### Statistical Modeling & Diagnostics
-library(broom)            # Tidy model outputs
-library(broom.helpers)    # Enhanced regression summaries
-library(performance)      # Model diagnostics (VIF, check_model)
-library(car)              # Regression diagnostics
-library(lmtest)           # Likelihood ratio tests
-library(pscl)             # Pseudo R² (McFadden)
-library(ResourceSelection) # Hosmer–Lemeshow test
-library(QuantPsyc)        # Classification tables
-library(pROC)             # ROC curves and AUC
-library(caret)            # Model evaluation and resampling
+- library(broom)            # Tidy model outputs
+- library(broom.helpers)    # Enhanced regression summaries
+- library(performance)      # Model diagnostics (VIF, check_model)
+- library(car)              # Regression diagnostics
+- library(lmtest)           # Likelihood ratio tests
+- library(pscl)             # Pseudo R² (McFadden)
+- library(ResourceSelection) # Hosmer–Lemeshow test
+- library(QuantPsyc)        # Classification tables
+- library(pROC)             # ROC curves and AUC
+- library(caret)            # Model evaluation and resampling
 
 ### Interaction & Effect Estimation
-library(interactions)     # Interaction plots, simple slopes
-library(ggeffects)        # Predicted probabilities
+- library(interactions)     # Interaction plots, simple slopes
+- library(ggeffects)        # Predicted probabilities
 
 ### Results Tables & Reporting
-library(gtsummary)        # Regression tables
-library(gt)               # Publication-ready tables
-library(knitr)            # Tables for R Markdown
-library(kableExtra)       # Table styling
-library(DT)               # Interactive tables
+- library(gtsummary)        # Regression tables
+- library(gt)               # Publication-ready tables
+- library(knitr)            # Tables for R Markdown
+- library(kableExtra)       # Table styling
+- library(DT)               # Interactive tables
 
 ### Data Exploration
-library(summarytools)     # Descriptive statistics
+- library(summarytools)     # Descriptive statistics
 
 ### Visualization
-library(ggplot2)          # Core plotting
-library(GGally)           # Correlation plots
-library(corrplot)         # Correlation matrices
-library(patchwork)        # Combine plots
-library(viridis)          # Color-blind friendly palettes
+- library(ggplot2)          # Core plotting
+- library(GGally)           # Correlation plots
+- library(corrplot)         # Correlation matrices
+- library(patchwork)        # Combine plots
+- library(viridis)          # Color-blind friendly palettes
 
 - **Linear Regression Analysis**
 
 ### Data Manipulation & Wrangling
-library(tidyverse)        # dplyr, tidyr, ggplot2
-library(modelr)           # Predictions and model helpers
+- library(tidyverse)        # dplyr, tidyr, ggplot2
+- library(modelr)           # Predictions and model helpers
 
 ### Statistical Modeling & Diagnostics
-library(broom)            # Tidy model outputs
-library(broom.helpers)    # Enhanced regression summaries/publish to posit-connect
-library(performance)      # Model diagnostics
-library(car)              # Regression diagnostics
-library(lmtest)           # Model comparison tests
+- library(broom)            # Tidy model outputs
+- library(broom.helpers)    # Enhanced regression summaries/publish to posit-connect
+- library(performance)      # Model diagnostics
+- library(car)              # Regression diagnostics
+- library(lmtest)           # Model comparison tests
 
 ### Interaction & Effect Estimation
-library(interactions)     # Interaction plots
-library(ggeffects)        # Predicted values
+- library(interactions)     # Interaction plots
+- library(ggeffects)        # Predicted values
 
 ### Results Tables & Reporting
-library(gtsummary)        # Regression tables
-library(gt)               # Publication-ready tables
-library(knitr)            # Tables for R Markdown
-library(DT)               # Interactive tables
+- library(gtsummary)        # Regression tables
+- library(gt)               # Publication-ready tables
+- library(knitr)            # Tables for R Markdown
+- library(DT)               # Interactive tables
 
 ### Data Exploration
-library(summarytools)     # Descriptive statistics
+- library(summarytools)     # Descriptive statistics
 
 ### Visualization
-library(ggplot2)          # Core plotting
-library(GGally)           # Correlation plots
-library(corrplot)         # Correlation matrices
-library(patchwork)        # Combine plots
+- library(ggplot2)          # Core plotting
+- library(GGally)           # Correlation plots
+- library(corrplot)         # Correlation matrices
+- library(patchwork)        # Combine plots
 
 ---
 
