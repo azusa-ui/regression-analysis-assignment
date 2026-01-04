@@ -103,15 +103,12 @@ All datasets were generated using **Generative AI (ChatGPT 5.2)** to emulate rea
 ## 🛠 Software & Packages
 - **R** (≥ 4.3)
 - **Logistic Regression Analysis**
-# ================================
-# Data Manipulation & Wrangling
-# ================================
+
+### Data Manipulation & Wrangling
 library(tidyverse)        # dplyr, tidyr, ggplot2, purrr
 library(modelr)           # Predictions and model helpers
 
-# ================================
-# Statistical Modeling & Diagnostics
-# ================================
+### Statistical Modeling & Diagnostics
 library(broom)            # Tidy model outputs
 library(broom.helpers)    # Enhanced regression summaries
 library(performance)      # Model diagnostics (VIF, check_model)
@@ -123,29 +120,21 @@ library(QuantPsyc)        # Classification tables
 library(pROC)             # ROC curves and AUC
 library(caret)            # Model evaluation and resampling
 
-# ================================
-# Interaction & Effect Estimation
-# ================================
+### Interaction & Effect Estimation
 library(interactions)     # Interaction plots, simple slopes
 library(ggeffects)        # Predicted probabilities
 
-# ================================
-# Results Tables & Reporting
-# ================================
+### Results Tables & Reporting
 library(gtsummary)        # Regression tables
 library(gt)               # Publication-ready tables
 library(knitr)            # Tables for R Markdown
 library(kableExtra)       # Table styling
 library(DT)               # Interactive tables
 
-# ================================
-# Data Exploration
-# ================================
+### Data Exploration
 library(summarytools)     # Descriptive statistics
 
-# ================================
-# Visualization
-# ================================
+### Visualization
 library(ggplot2)          # Core plotting
 library(GGally)           # Correlation plots
 library(corrplot)         # Correlation matrices
@@ -153,43 +142,32 @@ library(patchwork)        # Combine plots
 library(viridis)          # Color-blind friendly palettes
 
 - **Linear Regression Analysis**
-# ================================
-# Data Manipulation & Wrangling
-# ================================
+
+### Data Manipulation & Wrangling
 library(tidyverse)        # dplyr, tidyr, ggplot2
 library(modelr)           # Predictions and model helpers
 
-# ================================
-# Statistical Modeling & Diagnostics
-# ================================
+### Statistical Modeling & Diagnostics
 library(broom)            # Tidy model outputs
-library(broom.helpers)    # Enhanced regression summaries
+library(broom.helpers)    # Enhanced regression summaries/publish to posit-connect
 library(performance)      # Model diagnostics
 library(car)              # Regression diagnostics
 library(lmtest)           # Model comparison tests
 
-# ================================
-# Interaction & Effect Estimation
-# ================================
+### Interaction & Effect Estimation
 library(interactions)     # Interaction plots
 library(ggeffects)        # Predicted values
 
-# ================================
-# Results Tables & Reporting
-# ================================
+### Results Tables & Reporting
 library(gtsummary)        # Regression tables
 library(gt)               # Publication-ready tables
 library(knitr)            # Tables for R Markdown
 library(DT)               # Interactive tables
 
-# ================================
-# Data Exploration
-# ================================
+### Data Exploration
 library(summarytools)     # Descriptive statistics
 
-# ================================
-# Visualization
-# ================================
+### Visualization
 library(ggplot2)          # Core plotting
 library(GGally)           # Correlation plots
 library(corrplot)         # Correlation matrices
@@ -221,5 +199,6 @@ All datasets are **simulated** and created solely for educational purposes. No r
 ---
 
 ## 👤 Author
-*Dr Ahmad Zulfahmi Sha'ari*  
+*Dr Ahmad Zulfahmi Sha'ari*
+DrPH Candidate
 Public Health Epidemiology
