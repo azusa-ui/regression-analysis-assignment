@@ -1,14 +1,14 @@
 # Statistical Analysis Assignment  
 **Linear and Logistic Regression Using Simulated Public Health Data**
 
-## Overview
+## 1. Overview
 This repository contains a complete statistical analysis assignment demonstrating the application of **linear and logistic regression** in a public health epidemiology context. Two simulated datasets were generated to examine the effects of **physical activity, obesity, and years of working** on health outcomes, with particular emphasis on **interaction effects**, **model diagnostics**, and **influential observation analysis**.
 
 The project follows the full analytical workflow from data generation to interpretation, aligned with good epidemiological and statistical practice.
 
 ---
 
-## 🎯 Objectives
+## 2. Objectives
 - Apply linear regression to evaluate determinants of **Quality of Life (QoL)**
 - Apply logistic regression to assess factors associated with **depression**
 - Examine whether **obesity modifies** the effect of physical activity on health outcomes
@@ -17,7 +17,7 @@ The project follows the full analytical workflow from data generation to interpr
 
 ---
 
-## 📊 Datasets
+## 3. Datasets
 
 ### Dataset 1: Linear Regression (QoL)
 - **Sample size:** 200
@@ -50,7 +50,7 @@ All datasets were generated using **Generative AI (ChatGPT 5.2)** to emulate rea
 
 ---
 
-## 🔍 Analysis Workflow
+## 4. Analysis Workflow
 
 ### Part A: Data Generation
 - Synthetic datasets generated with predefined ranges, distributions, and interaction effects
@@ -100,7 +100,7 @@ All datasets were generated using **Generative AI (ChatGPT 5.2)** to emulate rea
 
 ---
 
-## 🛠 Software & Packages
+## 5. Software & Packages
 - **R** (≥ 4.3)
 
 ### **Logistic Regression Analysis**
@@ -174,12 +174,12 @@ All datasets were generated using **Generative AI (ChatGPT 5.2)** to emulate rea
 
 ---
 
-## ⚠️ Ethics & Data Governance
+## 6. Ethics & Data Governance
 All datasets are **simulated** and created solely for educational purposes. No real individuals or confidential data are involved. Ethical approval is not required.
 
 ---
 
-## 📈 SWOT Summary
+## 7. SWOT Summary
 
 **Strengths**
 - Fully reproducible workflow  
