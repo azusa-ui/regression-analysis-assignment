@@ -23,7 +23,7 @@
 - [15. Acknowledgments](#15-acknowledgments)
 - [16. Disclaimer](#16-disclaimer)
 - [17. License](#17-license)
-- [Lead Author](#-author)
+- [Lead Author](#-lead-author)
 
 </details>
 
