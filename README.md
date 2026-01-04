@@ -4,8 +4,8 @@
 <details>
 <summary><strong>📑 Table of Contents</strong></summary>
 
-- [1. Introduction](##1-introduction)
-- [2. Course & Assignment Context](##2-course--assignment-context)
+- [1. Introduction](#1-introduction)
+- [2. Course & Assignment Context](#2-course--assignment-context)
 - [3. Group Information](#3-group-information)
 - [4. Objectives](#4-objectives)
 - [5. Repository Structure](#5repository-structure)
@@ -23,7 +23,7 @@
 - [15. Acknowledgments](#15-acknowledgments)
 - [16. Disclaimer](#16-disclaimer)
 - [17. License](#17-license)
-- [Author](#-author)
+- [Lead Author](#-author)
 
 </details>
 
@@ -239,7 +239,7 @@ This repository is licensed under the MIT License. Please cite the author if usi
 
 ---
 
-## 👤 Author
+## 👤 Lead Author
 - **Dr Ahmad Zulfahmi Sha'ari**
 - DrPH Candidate , Group 1 Leader
 - Public Health Epidemiology
