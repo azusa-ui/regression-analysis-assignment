@@ -1,0 +1,7 @@
+# Generated plot files
+*.png
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user
