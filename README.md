@@ -1,7 +1,7 @@
 # Statistical Analysis Assignment For Group 1
 **Linear and Logistic Regression Using Simulated Public Health Data**
 
-## 1. Overview
+## 1. Introduction
 This repository contains a complete statistical analysis assignment demonstrating the application of **linear and logistic regression** in a public health epidemiology context. Two simulated datasets were generated to examine the effects of **physical activity, obesity, and years of working** on health outcomes, with particular emphasis on **interaction effects**, **model diagnostics**, and **influential observation analysis**.
 
 The project follows the full analytical workflow from data generation to interpretation, aligned with good epidemiological and statistical practice.
@@ -98,7 +98,23 @@ All datasets were generated using **Generative AI (ChatGPT 5.2)** to emulate rea
 - Discussion of assumption violations and influential observations
 
 ---
-
+## 📁 Repository Structure
+```
+├── Linear_Regression/
+│   ├── Multiple_LINEAR_Regression_Assignment.qmd    
+│   ├── Multiple_LINEAR_Regression_Assignment.html   
+│   ├── Simulate_data_linear_regression.R           
+│   └── data_lm.csv                               
+│
+├── Logistic_Regression/
+│   ├── Multiple_LOGISTIC_Regression_Assignment.qmd  
+│   ├── Multiple_LOGISTIC_Regression_Assignment.html  
+│   ├── Simulate_data_logistic_regression.R          
+│   └── data_log2.csv                               
+│
+└── README.md                                   
+```
+---
 ## 5. Software & Packages
 - **R** (≥ 4.3)
 
