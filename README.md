@@ -198,5 +198,5 @@ All datasets are **simulated** and created solely for educational purposes. No r
 
 ## 👤 Author
 - **Dr Ahmad Zulfahmi Sha'ari**
-- DrPH Candidate , Group Leader 1
+- DrPH Candidate , Group 1 Leader
 - Public Health Epidemiology
