@@ -19,7 +19,7 @@ The project follows the full analytical workflow from data generation to interpr
 
 ## 3. Datasets
 
-### Dataset 1: Linear Regression (QoL)
+### 3.1 : Dataset 1 for Linear Regression (QoL)
 - **Sample size:** 200
 - **Outcome:**  
   - `qol` (continuous, range 0–100)
@@ -34,7 +34,7 @@ The project follows the full analytical workflow from data generation to interpr
   - Deliberately inserted influential observations for diagnostic demonstration
 - **File:** `data_lm.csv`
 
-### Dataset 2: Logistic Regression (Depression)
+### 3.2 : Dataset 2 for Logistic Regression (Depression)
 - **Sample size:** 200
 - **Outcome:**  
   - `depression` (depressed / not depressed)
@@ -97,13 +97,12 @@ All datasets were generated using **Generative AI (ChatGPT 5.2)** to emulate rea
   - Practical public health significance
 - Discussion of assumption violations and influential observations
 
-
 ---
 
 ## 5. Software & Packages
 - **R** (≥ 4.3)
 
-### **Logistic Regression Analysis**
+### 5.1 **Logistic Regression Analysis**
 #### Data Manipulation & Wrangling
 - library(tidyverse)        # dplyr, tidyr, ggplot2, purrr
 - library(modelr)           # Predictions and model helpers
@@ -141,7 +140,7 @@ All datasets were generated using **Generative AI (ChatGPT 5.2)** to emulate rea
 - library(patchwork)        # Combine plots
 - library(viridis)          # Color-blind friendly palettes
 
-### **Linear Regression Analysis**
+### 5.2 **Linear Regression Analysis**
 #### Data Manipulation & Wrangling
 - library(tidyverse)        # dplyr, tidyr, ggplot2
 - library(modelr)           # Predictions and model helpers
