@@ -1,4 +1,4 @@
-# Statistical Analysis Assignment  
+# Statistical Analysis Assignment For Group 1
 **Linear and Logistic Regression Using Simulated Public Health Data**
 
 ## 1. Overview
@@ -198,5 +198,5 @@ All datasets are **simulated** and created solely for educational purposes. No r
 
 ## 👤 Author
 - **Dr Ahmad Zulfahmi Sha'ari**
-- DrPH Candidate
+- DrPH Candidate , Group Leader 1
 - Public Health Epidemiology
