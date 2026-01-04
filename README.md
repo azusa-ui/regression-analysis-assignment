@@ -235,7 +235,7 @@ All datasets are simulated. Analyses are for educational purposes only and shoul
 
 ---
 ## 17. License
-This repository is licensed under the MIT License. Please cite the author if using any part of this repository.
+This repository is licensed under the MIT License. 
 
 ---
 
