@@ -176,8 +176,8 @@ This repository is an academic assignment. Contributions are limited to group me
 - Contact the primary author
 ---
 ## 13. Contact
-Primary Contact: Dr Azul
-Email: azulmachang@gmail.com
+- Primary Contact: Dr Azul
+- Email: azulmachang@gmail.com
 
 ---
 
