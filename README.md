@@ -1,6 +1,33 @@
 # Regression Analysis (GDT500/3)
 **Statistical Analysis Assignment For Group 1**
 
+<details>
+<summary><strong>📑 Table of Contents</strong></summary>
+
+- [1. Introduction](##1-introduction)
+- [2. Course & Assignment Context](##2-course--assignment-context)
+- [3. Group Information](#3-group-information)
+- [4. Objectives](#4-objectives)
+- [5. Repository Structure](#5repository-structure)
+- [6. Datasets](#6-datasets)
+  - [6.1 Dataset 1 for Linear Regression (QoL)](#61--dataset-1-for-linear-regression-qol)
+  - [6.2 Dataset 2 for Logistic Regression (Depression)](#62--dataset-2-for-logistic-regression-depression)
+- [7. Analysis Workflow](#7-analysis-workflow)
+- [8. Published Reports (Posit Connect)](#8-published-reports-posit-connect)
+- [9. Required R Packages](#9-required-r-packages)
+- [10. Declaration on the Use of AI](#10-declaration-on-the-use-of-ai)
+- [11. Ethics & Data Governance](#11-ethics--data-governance)
+- [12. Contributing](#12-contributing)
+- [13. Contact](#13-contact)
+- [14. SWOT Summary](#14-swot-summary)
+- [15. Acknowledgments](#15-acknowledgments)
+- [16. Disclaimer](#16-disclaimer)
+- [17. License](#17-license)
+- [Author](#-author)
+
+</details>
+
+
 
 ## 1. Introduction
 This repository contains a complete statistical analysis assignment demonstrating the application of **linear and logistic regression** in a public health epidemiology context. Two simulated datasets were generated to examine the effects of **physical activity, obesity, and years of working** on health outcomes, with particular emphasis on **interaction effects**, **model diagnostics**, and **influential observation analysis**.
