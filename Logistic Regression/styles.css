@@ -1,0 +1,250 @@
+/* =========================================================
+   QUARTO ACADEMIC THEME
+   COLOR-BLIND FRIENDLY | NON-STICKY | HIGH CONTRAST
+   ========================================================= */
+
+/* ======================
+   GLOBAL
+   ====================== */
+
+body {
+  font-family: "Inter", "Source Sans Pro", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #111827;
+  background-color: #FFFFFF;
+}
+
+/* ======================
+   DEFAULT HEADINGS
+   ====================== */
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  color: #0A2540;
+  border-bottom: 3px solid #1D4ED8;
+  padding-bottom: 0.4em;
+}
+
+h2 { color: #1D4ED8; }
+h3 { color: #0F766E; }
+h4 { color: #334155; }
+
+/* ======================
+   HEADER BOXES (NON-STICKY)
+   ====================== */
+
+/* =========================================================
+   ACCESSIBLE ELEGANT HEAD BOXES
+   Color-blind friendly | High contrast | Readable text
+   ========================================================= */
+
+/* H2 – Major Sections */
+.h2-box {
+  background: linear-gradient(
+    135deg,
+    #243A5E,   /* Muted academic navy */
+    #1E3A8A    /* Deep blue */
+  );
+
+  color: #FFFFFF;
+  padding: 14px 18px;
+  margin: 2.2em 0 1.2em 0;
+  border-radius: 12px;
+
+  box-shadow:
+    0 10px 24px rgba(36, 58, 94, 0.35);
+}
+
+/* Text inside H2 box */
+.h2-box h2 {
+  margin: 0;
+  font-size: 1.45em;
+  text-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.65),
+    0 0 1px rgba(0, 0, 0, 0.9);
+}
+
+/* H3 – Subsections */
+.h3-box {
+  background: linear-gradient(
+    135deg,
+    #2F6F6B,   /* Muted teal */
+    #115E59    /* Deep teal */
+  );
+
+  color: #FFFFFF;
+  padding: 12px 16px;
+  margin: 1.6em 0 0.9em 0;
+  border-radius: 10px;
+
+  box-shadow:
+    0 8px 20px rgba(47, 111, 107, 0.35);
+}
+
+/* Text inside H3 box */
+.h3-box h3 {
+  margin: 0;
+  font-size: 1.2em;
+  text-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.6),
+    0 0 1px rgba(0, 0, 0, 0.85);
+}
+/* ======================
+   SECTION SHADING
+   ====================== */
+
+section {
+  padding: 1em 1.4em;
+  margin: 1.6em 0;
+  border-radius: 16px;
+  background-color: #F8FAFC;
+}
+
+section.level2 {
+  background-color: #EFF6FF;
+  box-shadow: 0 12px 26px rgba(29, 78, 216, 0.08);
+}
+
+section.level2::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 2em;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #1D4ED8,
+    transparent
+  );
+  opacity: 0.35;
+}
+
+/* ======================
+   TEXT & LISTS
+   ====================== */
+
+p {
+  margin: 0.8em 0;
+  text-align: justify;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+/* ======================
+   TABLES (ACCESSIBLE – ENHANCED READABILITY)
+   ====================== */
+
+table {
+  width: 100%;
+  margin: 1.8em 0;
+  border-collapse: collapse;
+  border-radius: 14px;
+  overflow: hidden;
+
+  background-color: #FFFFFF;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.06);
+
+  font-size: 1.05em;          /* ⬆ Larger table text */
+}
+
+thead th {
+  background: linear-gradient(
+    180deg,
+    #0F766E 0%,    /* Emerald dark top */
+    #10B981 100%   /* Emerald lighter bottom */
+  ) !important;
+
+  color: #FFFFFF !important; /* Force white text */
+  padding: 14px;
+  text-align: center;
+  font-size: 1.15em;
+  font-weight: 700;
+
+  border-bottom: 2px solid #CBD5E1;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F1F5F9;
+}
+
+tbody tr:hover {
+  background-color: #E0F2FE;
+}
+
+
+caption {
+  caption-side: top;          /* Correct CSS value */
+  font-size: 1.1em;          /* ⬆ Easier to read */
+  color: #334155;
+  margin-bottom: 0.6em;
+  font-weight: 600;
+}
+
+/* ======================
+   CODE BLOCKS
+   ====================== */
+
+pre {
+  background-color: #020617;
+  color: #E5E7EB;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+code {
+  background-color: #E0F2FE;
+  color: #075985;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* ======================
+   BLOCKQUOTES
+   ====================== */
+
+blockquote {
+  background-color: #ECFEFF;
+  border-left: 6px solid #0F766E;
+  padding: 14px 18px;
+  border-radius: 12px;
+  color: #0F172A;
+}
+
+/* ======================
+   FIGURE CAPTIONS
+   ====================== */
+figcaption {
+  font-size: 1.1em;          /* Increase caption size */
+  font-weight: 600;          /* Slightly bold */
+  color: #334155;            /* Dark blue-gray, readable */
+  margin-top: 0.8em;
+  text-align: center;        /* Center captions */
+}
+
+
+
+/* ======================
+   LINKS & METADATA
+   ====================== */
+
+a {
+  color: #1D4ED8;
+}
+
+a:hover {
+  color: #0F766E;
+}
+
+.quarto-title-meta {
+  font-size: 0.9em;
+  color: #334155;
+}
+
+ 
