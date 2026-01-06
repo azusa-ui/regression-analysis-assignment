@@ -68,14 +68,16 @@ The project follows the full analytical workflow from data generation to interpr
 │   ├── Multiple_LINEAR_Regression_Assignment.qmd    
 │   ├── Multiple_LINEAR_Regression_Assignment.html   
 │   ├── Simulate_data_linear_regression.R           
-│   └── data_lm.csv                               
+│   └── data_lm.csv
+│   └── styles.css                                
 │
 ├── Logistic_Regression/
 │   ├── Multiple_LOGISTIC_Regression_Assignment.qmd  
 │   ├── Multiple_LOGISTIC_Regression_Assignment.html  
 │   ├── Simulate_data_logistic_regression.R          
 │   └── data_log2.csv                               
-│
+│   └── styles.css
+└── LICENSE                                   
 └── README.md                                   
 ```
 ---
